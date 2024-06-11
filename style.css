@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+:root{
+    --main-background: #000;
+    --navbar-background-color:rgb(42, 42, 42);
+    --main-text-color: #fff;
+    --main-button-color: #B50909;
+}
+
+*{
+    color: var(--main-text-color);
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+}
+.nav-design{
+    background-color: var(--navbar-background-color);
+    border: 1px solid #FFFFFF17;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+li{
+    margin: 0 20px;
+}
+.nav-link{
+    color: var(--main-text-color) !important;
+}
+.btn-color{
+    background-color: var(--main-button-color) !important;
+    color: var(--main-text-color) !important;
+}
+.btn-color:focus{
+    border: none !important;
+    outline: none !important;
+}
+.ball-positioning{
+    position: absolute;
+    bottom: 95px;
+    left: 200px;
+}
+.card{
+    color: #D9D9D9;
+    width: 238px;
+    height: 338px;
+    padding: 120px;
+}
+.about{
+    font-size: 20px;
+}
+.my-6{
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important
+}
+.my-7{
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important
+}
+.my-8{
+    margin-top: 6rem !important;
+    margin-bottom: 6rem !important
+}
+.my-9{
+    margin-top: 7rem !important;
+    margin-bottom: 7rem !important
+}
+.my-10{
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important
+}
+.about-img{
+    position: absolute;
+    right: 101px;
+    top: -70px;
+    width: 345px;
+}
+.gradient-red{
+    
+    background-image: linear-gradient(to bottom,rgba(164,55,55,0.76), rgba(91,47,47,0.52),transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+.gradient-black{
+    background-image: linear-gradient(to bottom,rgba(29, 29, 29, 0.726),transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+.Coaches-club-area{
+    position: absolute;
+    bottom: 55px;
+    left: -160px;
+}
+.question-box{
+    border: 1px solid #FFFFFF54; 
+    cursor: pointer;   
+}
+.icon-border{
+    border: 1px solid #FFFFFF54;
+}
+.Backgrond-gradient{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.78));
+}
+.box-rotation{
+    rotate: -15deg;
+}
+.img-rotation{
+    rotate: 15deg;
+}
+.hero-img{
+    width: 500px;
+}
+.card-box{
+    background-color: var(--navbar-background-color) !important;
+}
+.hero-heading{
+    width: 65%;
+}
+.hero-para{
+    width: 50%;
+}
+.hero-button{
+    width: 25%;
+}
+.about-para{
+    width: 75%;
+}
+.club-card{
+    width: 250px !important;
+}
+.question-boxes{
+    width: 75%;
+}
+.carousel-shap-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.comunity-icons{
+    background-color: var(--main-button-color);
+    top: 75px;
+    left: -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .hero-heading{
+        width: 100%;
+    }
+    .hero-para{
+        width: 100%;
+    }
+    .hero-button{
+        width: 50%;
+    }
+    .about-para{
+        width: 100%;
+    }
+    .service-card{
+        width: 40% !important;
+    }
+    .card{
+        padding: 130px;
+        margin-left: 20px;
+    }
+    .about-img{
+        right: 128px;
+        top: -60px;
+        width: 341px;
+    }
+    .Coaches-club-area{
+        bottom: 40px;
+        left: 40px;
+    }
+    .club-card{
+        width: 310px !important;
+    }
+    .question-boxes{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .about-img{
+    right: 47px;
+    top: -31px;
+    width: 280px;
+    }
+    .ball-positioning{
+        bottom: 30px !important;
+        left: 40px !important;
+    }
+    
+}
